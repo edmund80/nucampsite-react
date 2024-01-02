@@ -18,7 +18,7 @@ const DisplayList = () => {
                     )
                 );
             })}
-        </Row>
+        </Row> 
     );
 };
 
