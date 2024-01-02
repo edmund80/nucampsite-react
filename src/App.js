@@ -4,9 +4,9 @@ import HomePage from './pages/HomePage';
 import CampsitesDirectoryPage from './pages/CampsitesDirectoryPage';
 import Header from './components/Header'
 import Footer from './components/Footer'
-import './App.css';
 import CampsiteDetailPage from './pages/CampsiteDetailPage';
 import AboutPage from './pages/AboutPage';
+import './App.css';
 
 
 function App() {
