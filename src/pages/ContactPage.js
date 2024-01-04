@@ -6,10 +6,9 @@
  const ContactPage = () => {
     return (
          <Container>
-            <SubHeader />
-            Contact Us
+            <SubHeader current='Contact Us' />
 
-            <Row>
+            <Row className='row-content align items-center'>
                <Col sm='4'>
                   <h5>Our Address</h5>
                   <address>
@@ -42,7 +41,7 @@
                </Col>
             </Row>
 
-            <Row>
+            <Row className='row-content'>
                <Col xs='12'>
                   <h2>Send Us Your Feedback</h2>
                   <hr />
