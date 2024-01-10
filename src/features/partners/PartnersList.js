@@ -1,9 +1,10 @@
+import { useSelector } from 'react-redux'
 import { Col } from 'reactstrap';
 import Partner from '../partners/Partner';
 import { selectALLPartners }  from '../partners/partnersSlice';
 
 const PartnersList = () => {
-    const partners = selectALLPartners();
+    const partners = useSelector(selectALLPartners);
 
     return (
         <Col className='mt-4'>
